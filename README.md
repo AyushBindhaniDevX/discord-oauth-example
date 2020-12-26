@@ -16,9 +16,7 @@ DISCORD OAUTH
   
 6. Create A `.env` File
 
-7. Add A Variable : ```
-
-CLIENT=<YOUR_CLIENT_ID> 
+7. Add A Variable : ```CLIENT=<YOUR_CLIENT_ID> 
  SECRET=<YOUR_CLIENT_SECRET> REDIRECT=<YOUR REDIRECT URL ; DEFAULT : http://localhost:8081```
 
 7. Run `node index.js`
