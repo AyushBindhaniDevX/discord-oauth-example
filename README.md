@@ -14,7 +14,10 @@ DISCORD OAUTH
 
 5. Edit `index.html`. Replace <CLIENT_ID> And <REDIRECT URL>
   
-6. Edit `index.js`. Also Replace <CLIENT_ID> And <CLIENT_SECRET> With Your Client ID And Client Secret.
+6. Create A `.env` File
+
+7. Add A Variable : ```CLIENT=<YOUR_CLIENT_ID> 
+ SECRET=<YOUR_CLIENT_SECRET>```
 
 7. Run `node index.js`
 
