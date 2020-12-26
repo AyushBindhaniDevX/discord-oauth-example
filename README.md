@@ -18,7 +18,7 @@ DISCORD OAUTH
 
 7. Run `node index.js`
 
-8. You Will Be Able To See The Project On http://localhost:8081 If You Host This Project With Your Computer
+8. Goto http://localhost:8081 If You Self Host This Project
 
 
 
