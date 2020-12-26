@@ -16,10 +16,10 @@ app.get('/', function (req, res) {
 app.post('/', function (req, res) {
     const data = new FormData();
     console.log(req.body)
-    data.append('client_id', "749840627969163285");
-    data.append('client_secret', "7GUsliSHFSkh_LNf9ncK21h-a2htgED9");
+    data.append('client_id', "<CLIENT_ID>");
+    data.append('client_secret', "<CLIENT_SECRET>");
     data.append('grant_type', 'authorization_code');
-    data.append('redirect_uri', "https://bashing.jiahui2.repl.co");
+    data.append('redirect_uri', "<REDIRECT_URL>");
     data.append('scope', 'identify');
     data.append('code', req.body);
 
