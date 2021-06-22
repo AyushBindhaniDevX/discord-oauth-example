@@ -16,10 +16,10 @@ app.get('/', function (req, res) {
 app.post('/', function (req, res) {
     const data = new FormData();
     console.log(req.body)
-    data.append('client_id', "<CLIENT_ID>");
-    data.append('client_secret', "<CLIENT_SECRET>");
+    data.append('client_id', process.env.CLIENT);
+    data.append('client_secret', process.env.SECRET);
     data.append('grant_type', 'authorization_code');
-    data.append('redirect_uri', "<REDIRECT_URL>");
+    data.append('redirect_uri', process.env.REDIRECT);
     data.append('scope', 'identify');
     data.append('code', req.body);
 
