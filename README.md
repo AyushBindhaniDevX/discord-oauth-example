@@ -1,6 +1,7 @@
 # discord-oauth-example
 DISCORD OAUTH
 
+## This repository was archive, as its not quite useful for most of the projects out there.
 
 ### How Do I Get Started ?
 
